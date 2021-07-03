@@ -19,7 +19,7 @@ namespace skyrimCursor {
 
             while (true) {
                 if (GetActiveProcessName() == "TESV") {
-                    ShowCursor(true);
+                    ShowCursor(false);
                 } else {
                     ShowCursor(true);
                 }
